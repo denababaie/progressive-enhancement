@@ -1,4 +1,4 @@
-# [Story of The Chinese Farmer](https://denababaie.github.io/progressive-enhancement/index.html)
+# [Story of The Chinese Farmer](https://denababaie.github.io/progressive-enhancement/)
 
 **About project**:
 
