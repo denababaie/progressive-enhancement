@@ -146,7 +146,7 @@ tr:nth-child(odd) {
 
 .internetcats {
   width: 40%;
-  background: #F2EEBB url("../folder/chat.png") no-repeat 100% center;
+  background: #F2EEBB url("chat.png") no-repeat 100% center;
   background-size: contain;
   margin: 5px;
   color: #000000;
@@ -156,7 +156,7 @@ tr:nth-child(odd) {
 
 .internetgood {
   width: 40%;
-  background: #F2EEBB url("../folder/bien.png") no-repeat 100% center;
+  background: #F2EEBB url("bien.png") no-repeat 100% center;
   background-size: contain;
   margin: 5px;
   color: #000000;
@@ -166,7 +166,7 @@ tr:nth-child(odd) {
 
 .internetevil {
   width: 40%;
-  background: #F2EEBB url("../folder/mal.png") no-repeat 100% center;
+  background: #F2EEBB url("mal.png") no-repeat 100% center;
   background-size: contain;
   margin: 5px;
   color: #000000;
@@ -176,7 +176,7 @@ tr:nth-child(odd) {
 
 .nothinking {
   width: 40%;
-  background: #F2EEBB url("../folder/braindead.png") no-repeat 100% center;
+  background: #F2EEBB url("braindead.png") no-repeat 100% center;
   background-size: contain;
   margin: 5px;
   color: #000000;
