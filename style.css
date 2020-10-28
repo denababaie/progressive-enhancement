@@ -1,0 +1,225 @@
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../Downloads/playfair-display-v21-latin/playfair-display-v21-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../../Downloads/playfair-display-v21-latin/playfair-display-v21-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../../Downloads/playfair-display-v21-latin/playfair-display-v21-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../../Downloads/playfair-display-v21-latin/playfair-display-v21-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../../Downloads/playfair-display-v21-latin/playfair-display-v21-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../../Downloads/playfair-display-v21-latin/playfair-display-v21-latin-regular.svg#PlayfairDisplay') format('svg');
+  /* Legacy iOS */
+}
+
+body {
+  /*background: rgb(229,104,241);
+  background: linear-gradient(0deg, rgba(229,104,241,1) 0%, rgba(255,188,248,1) 75%);*/
+  color: black;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: 'Playfair Display';
+  /*src: url(sansation_light.woff);*/
+  font-size: 19px;
+  /*font: 19px/30px Georgia, serif;*/
+  width: 90%;
+  padding: 50px;
+  margin: 20px;
+  word-spacing: 8px;
+  /*background-image: url("../china/china.jpg"), linear-gradient(0deg, rgba(229,104,241,1) 0%, rgba(255,188,248,1) 75%);*/
+  /*background-image: url("../china/china.jpg"), linear-gradient(0deg, rgba(252,167,247,1) 0%, rgba(252,167,170,1) 75%);*/
+  /* background-image: url("../china/china.jpg"),linear-gradient(90deg, rgba(238,185,236,1) 0%, rgba(255,211,213,1) 35%, rgba(255,166,169,1) 100%);*/
+  background-image: url("../china/china.jpg"), radial-gradient(circle, rgba(255, 166, 169, 1) 7%, rgba(255, 213, 231, 1) 41%);
+
+
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+blockquote {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: lightgrey;
+  border-color: #DEEFC5;
+  border-style: solid;
+  text-align: center;
+}
+
+/*body > p {color: yellow;}   */
+header>h1 {
+  background-color: lightyellow;
+}
+
+h1 {
+  background-color: whitesmoke;
+  color: lightpink;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  background-color: lightblue;
+  color: blue;
+  text-decoration: underline;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+td,
+th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+
+/* unvisited link */
+a:link {
+  color: hotpink;
+}
+
+/* visited link */
+a:visited {
+  color: lightcoral;
+}
+
+.good {
+  color: #9dc183;
+  text-transform: uppercase;
+}
+
+.bad {
+  color: red;
+  text-transform: uppercase
+}
+
+.Villagers {
+  font-style: italic;
+  font-size: 160%;
+  background-color: rgb(214, 206, 206);
+  border-left: 5px solid lightgoldenrodyellow;
+}
+
+.Farmer {
+  font-style: italic;
+  font-size: 160%;
+  background-color: rgb(214, 206, 206);
+  border-left: 5px solid lightsteelblue;
+}
+
+
+.ttable tr:nth-child(2n-1) td {
+  background: #F5F5F5;
+  color: #000000;
+  position: relative;
+  z-index: -1;
+}
+
+
+th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.notification {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  background: lightblue;
+  padding: .5rem 1rem;
+  border-radius: 2px;
+  border: 3px solid lightpink;
+  width: 150px;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+}
+
+.notification:hover {
+  background: lightpink;
+}
+
+.internetcats {
+  width: 40%;
+  background: #F2EEBB url("../folder/chat.png") no-repeat 100% center;
+  background-size: contain;
+  margin: 5px;
+  color: #000000;
+  font-weight: bold;
+  padding: 3px 18px 3px 3px;
+}
+
+.internetgood {
+  width: 40%;
+  background: #F2EEBB url("../folder/bien.png") no-repeat 100% center;
+  background-size: contain;
+  margin: 5px;
+  color: #000000;
+  font-weight: bold;
+  padding: 3px 18px 3px 3px;
+}
+
+.internetevil {
+  width: 40%;
+  background: #F2EEBB url("../folder/mal.png") no-repeat 100% center;
+  background-size: contain;
+  margin: 5px;
+  color: #000000;
+  font-weight: bold;
+  padding: 3px 18px 3px 3px;
+}
+
+.nothinking {
+  width: 40%;
+  background: #F2EEBB url("../folder/braindead.png") no-repeat 100% center;
+  background-size: contain;
+  margin: 5px;
+  color: #000000;
+  font-weight: bold;
+  padding: 3px 18px 3px 3px;
+}
+
+
+.peoplelist {
+  flex-direction: column;
+	align-items: center;
+  justify-content: center;
+} 
+
+.space {
+	flex-direction: row-reverse;
+	margin-bottom: 100px;
+}
+.imagefarmer {
+  display: left
+	box-sizing: border-box;
+	flex-basis: 50%;
+}
+
+.storychinese {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dialogtable {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;;
+}
