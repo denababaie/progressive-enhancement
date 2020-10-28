@@ -2,7 +2,7 @@
 
 **About project**:
 
-The project consisted of editing an html code.And making it visually pleasing by using by editing in css. 
+The project consisted of editing an html code and making it visually pleasing by coding in css. 
 
 - **The project can be found in the following repository**: `progessive-enhancement`
 
